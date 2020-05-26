@@ -66,6 +66,7 @@ function jt808GuideSidebarConfig() {
                 'annotation-based-dev/req-msg-mapping',
                 'annotation-based-dev/msg-handler-register',
                 'annotation-based-dev/resp-msg-mapping',
+                'annotation-based-dev/msg-push',
                 'annotation-based-dev/exception-handler',
                 'annotation-based-dev/location-msg-parse-demo'
             ]
@@ -143,13 +144,13 @@ function navConfig() {
         {text: '指南', link: '/jt-808/guide/'},
         {text: '配置', link: '/jt-808/config/'},
         //{text: '使用建议', link: '/jt-808/best-practices/'},
-        {
-            text: '协议类型',
-            ariaLabel: '协议类型',
-            items: [
-                {text: 'Jt-808', link: '/jt-808/guide/'},
-                {text: 'Jt-809', link: '/jt-809/'}
-            ]
-        }
+        // {
+        //     text: '协议类型',
+        //     ariaLabel: '协议类型',
+        //     items: [
+        //         {text: 'Jt-808', link: '/jt-808/guide/'},
+        //         {text: 'Jt-809', link: '/jt-809/'}
+        //     ]
+        // }
     ];
 }
